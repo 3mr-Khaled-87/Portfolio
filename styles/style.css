@@ -186,6 +186,7 @@ ul li .link:hover{
 .home .main .btns button{
     padding: 5px 15px;
     border: none;
+    width: max-content;
     font-weight: 600;
     border-radius: 5px;
 }
