@@ -233,12 +233,17 @@ ul li .link:hover{
     nav , nav .links{
         width: 100% !important;
         margin-top: 0 !important;
+        height: 100%;
+    }
+    header{
+        height: 80px;
     }
     nav .links ul{
         border-radius: 0;
         border-width: 0;
         border-bottom: 1px solid blue;
         margin-top: 0 !important;
+        height: 100%;
     }
     .home .main .slogan h1{
         margin-top: 100px !important;
@@ -252,14 +257,17 @@ ul li .link:hover{
 }
 @media (max-width : 500px) {
     .home{
-        left: 0;
-        right: 0;
+        left: 5px;
+        right: 5px;
+        text-align: center;
     }
     .menue{
         top: 51%;
     }
+    .home .main .slogan h1{
+        font-size: 40px;
+    }
     .home .main .slogan p{
-        font-size: 18px;
         width: 100%;
     }
 }
