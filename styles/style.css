@@ -222,9 +222,6 @@ ul li .link:hover{
         padding-left: 20px;
     }
 }
-@media (max-width : 730px) {
-    
-}
 @media (max-width : 870px) {
     .home .main .img{
         width: 100px;
@@ -262,6 +259,7 @@ ul li .link:hover{
         top: 51%;
     }
     .home .main .slogan p{
+        font-size: 18px;
         width: 100%;
     }
 }
